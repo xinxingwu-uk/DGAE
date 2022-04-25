@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -J pub_4
+#SBATCH -o pub_4.o%j
+#SBATCH -e pub_4.e%j
+#SBATCH -p normal
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH -t 01:13:00
+#SBATCH --mail-type=all
+#SBATCh -/work/07913/xwu236/GVAE
+#SBATCH --mail-user=xinxingwu@gmail.com
+
+module list
+pwd
+date
+
+python3 /work/07913/xwu236/GVAE/5wisconsin_AE/4LinearAE1_Feature.py 

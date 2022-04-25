@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -J pub_6
+#SBATCH -o pub_6.o%j
+#SBATCH -e pub_6.e%j
+#SBATCH -p normal
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH -t 04:13:00
+#SBATCH --mail-type=all
+#SBATCh -/work/07913/xwu236/GVAE
+#SBATCH --mail-user=xinxingwu@gmail.com
+
+module list
+pwd
+date
+
+python3 /work/07913/xwu236/GVAE/1Cora_AE/3Deep_Layer6_AE.py 

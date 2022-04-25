@@ -1,0 +1,48 @@
+
+Currently Loaded Modules:
+  1) intel/19.1.1   4) autotools/1.2   7) pmix/3.1.4     10) TACC
+  2) impi/19.0.7    5) python3/3.7.0   8) hwloc/1.11.12
+  3) git/2.24.1     6) cmake/3.16.1    9) xalt/2.10.2
+
+ 
+
+2021-01-09 15:05:11.542431: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2021-01-09 15:05:11.569192: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2700000000 Hz
+2021-01-09 15:05:11.569972: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4cd77b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-01-09 15:05:11.570010: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-01-09 15:05:11.573120: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/apps/hwloc/1.11.12/lib:/opt/apps/pmix/3.1.4/lib:/opt/apps/intel19/python3/3.7.0/lib:/opt/intel/compilers_and_libraries_2020.1.217/linux/mpi/intel64/libfabric/lib:/opt/intel/compilers_and_libraries_2020.1.217/linux/mpi/intel64/lib/release:/opt/intel/compilers_and_libraries_2020.1.217/linux/mpi/intel64/lib:/opt/intel/debugger_2020/libipt/intel64/lib:/opt/intel/compilers_and_libraries_2020.1.217/linux/daal/lib/intel64_lin:/opt/intel/compilers_and_libraries_2020.1.217/linux/tbb/lib/intel64_lin/gcc4.8:/opt/intel/compilers_and_libraries_2020.1.217/linux/mkl/lib/intel64_lin:/opt/intel/compilers_and_libraries_2020.1.217/linux/ipp/lib/intel64:/opt/intel/compilers_and_libraries_2020.1.217/linux/compiler/lib/intel64_lin:/opt/apps/gcc/8.3.0/lib64:/opt/apps/gcc/8.3.0/lib
+2021-01-09 15:05:11.573150: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2021-01-09 15:05:11.573173: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (c135-021.frontera.tacc.utexas.edu): /proc/driver/nvidia/version does not exist
+Using TensorFlow backend.
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/4Cornell_AE/3Deep_Layer18_AE.py:128: The name tf.sparse_placeholder is deprecated. Please use tf.compat.v1.sparse_placeholder instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/4Cornell_AE/3Deep_Layer18_AE.py:131: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/model.py:82: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/initializations.py:26: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/layers.py:23: The name tf.sparse_retain is deprecated. Please use tf.sparse.retain instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/layers.py:83: The name tf.sparse_tensor_dense_matmul is deprecated. Please use tf.sparse.sparse_dense_matmul instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/layers.py:62: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/model.py:576: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/model.py:84: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/model.py:84: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/4Cornell_AE/3Deep_Layer18_AE.py:191: The name tf.sparse_tensor_to_dense is deprecated. Please use tf.sparse.to_dense instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/optimizer.py:81: calling weighted_cross_entropy_with_logits (from tensorflow.python.ops.nn_impl) with targets is deprecated and will be removed in a future version.
+Instructions for updating:
+targets is deprecated, use labels instead
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/linear_gae/optimizer.py:83: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/4Cornell_AE/3Deep_Layer18_AE.py:203: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /work/07913/xwu236/GVAE/4Cornell_AE/3Deep_Layer18_AE.py:204: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
