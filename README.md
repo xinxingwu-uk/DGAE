@@ -67,8 +67,6 @@ Xinxing Wu, Qiang Cheng. Deepened Graph Auto-Encoders Help Stabilize and Enhance
 ---
 
 
----
-
 ## License
 
 Distributed under the MIT license. See [``LICENSE``](https://github.com/xinxingwu-uk/DGAE/blob/main/LICENSE) for more information.
