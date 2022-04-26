@@ -13,7 +13,7 @@ Our main model is as follows:
 
 The loss function is as follows (i.e. Model (5)):
 
-<img src="./Html/L3.png" width="30%">
+<img src="./Html/L3.png" width="40%">
 
 Where
 
