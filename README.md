@@ -25,6 +25,7 @@ The performance of our proposed models compared to the orignal models:
 
 <img src="./Html/Figure3.png" width="85%">
 
+<img src="./Html/Figure4.png" width="85%">
 ---
 
 ## Main Theoretical Result
