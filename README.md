@@ -7,11 +7,11 @@ The performance of GAEs degrades with the increase of layers:
 
 ## Model
 
-Our main model is as follows:
+Our main model (i.e. Model (5)) is as follows:
 
 <img src="./Html/Model.png" width="50%">
 
-The loss function is as follows (i.e. Model (5)):
+The loss function is as follows:
 
 <img src="./Html/L3.png" width="40%">
 
