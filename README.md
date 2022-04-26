@@ -29,7 +29,7 @@ The performance of our proposed models compared to the orignal models:
 
 ## Main Theoretical Result
 
-<img src="./Html/Theorem1.png" width="50%">
+<img src="./Html/Theorem.png" width="100%">
 
 
 ---
