@@ -13,23 +13,23 @@ Our main model is as follows:
 
 The loss function is as follows (i.e. Model (5)):
 
-<img src="./Html/L3.png" width="100%">
+<img src="./Html/L3.png" width="50%">
 
 Where
 
-<img src="./Html/L1.png" width="100%">
+<img src="./Html/L1.png" width="25%">
 
 The performance of our proposed models compared to the orignal models:
 
-<img src="./Html/Figure2.png" width="100%">
+<img src="./Html/Figure2.png" width="50%">
 
-<img src="./Html/Figure3.png" width="100%">
+<img src="./Html/Figure3.png" width="50%">
 
 ---
 
 ## Main Theoretical Result
 
-<img src="./Html/Theorem1.png" width="100%">
+<img src="./Html/Theorem1.png" width="50%">
 
 
 ---
