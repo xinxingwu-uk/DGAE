@@ -5,8 +5,38 @@ The performance of GAEs degrades with the increase of layers:
 
 ---
 
-## Codes
+## Model
 
+Our main model is as follows:
+
+<img src="./Html/Model.png" width="100%">
+
+The loss function is as follows (i.e. Model (5)):
+
+<img src="./Html/L3.png" width="100%">
+
+Where
+
+<img src="./Html/L1.png" width="100%">
+
+The performance of our proposed models compared to the orignal models:
+
+<img src="./Html/Figure2.png" width="100%">
+
+<img src="./Html/Figure3.png" width="100%">
+
+---
+
+## Main Theoretical Result
+
+<img src="./Html/Theorem1.png" width="100%">
+
+
+---
+
+## Visulization
+
+<img src="./Html/Visulization.png" width="100%">
 
 
 ---
