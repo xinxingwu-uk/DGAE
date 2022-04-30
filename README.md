@@ -17,7 +17,7 @@ The loss function is as follows:
 
 Where
 
-<img src="./Html/Loss1.png" width="50%">
+<img src="./Html/Loss1.png" width="40%">
 
 The performance of our proposed models compared to the orignal models:
 
