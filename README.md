@@ -1,4 +1,4 @@
-# Stabilizing and Enhancing Link Prediction through Deepened Graph Auto-Encoders
+# Stabilizing and Enhancing Link Prediction through Deepened Graph Auto-Encoders (IJCAI-ECAI 2022)
 ---
 The performance of GAEs degrades with the increase of layers:
 <img src="./Html/Figure1.png" width="100%">
