@@ -54,7 +54,7 @@ The main codes for our proposed models, including DGAE$_{\alpha}$, DGAE$_{\alpha
 
 ## How to Cite
 
-Xinxing Wu, Qiang Cheng. Deepened Graph Auto-Encoders Help Stabilize and Enhance Link Prediction. The 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI 2022). 2022.
+Xinxing Wu, Qiang Cheng. Deepened Graph Auto-Encoders Help Stabilize and Enhance Link Prediction. The 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI 2022). 2022. https://www.ijcai.org/proceedings/2022/498
 
 ---
   
